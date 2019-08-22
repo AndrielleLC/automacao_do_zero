@@ -1,7 +1,4 @@
 Dado("que eu acessei a página de Login") do
-    @login = LoginPage.new
-    @home = HomePage.new
-    @nav = Nav.new
     @home.acessar
     @nav.vai_para_login
   end
@@ -9,7 +6,7 @@ Dado("que eu acessei a página de Login") do
   Quando('faço login com') do |table|
     @usuario = table.rows_hash
     @login.faz_login(@usuario[:email], @usuario[:senha])
-    end
+  end
   
   # Então("devo ver a seguinte mensagem de {string}") do |mensagem_alerta|
   #   @login.validar_atenticacao

@@ -8,7 +8,7 @@ Funcionalidade: Login
     Contexto: Form de Login
         Dado que eu acessei a página de Login
 
-    @login @logut
+    @smoke @logut
     Cenário: Login do usuário
         Quando faço login com 
         	| nome  | Andrielle       |
