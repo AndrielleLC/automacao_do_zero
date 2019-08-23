@@ -1,9 +1,6 @@
 ---
-  default: -p html -p dot -p chrome
-  ci: -p headless -p dot -p jason
+  default: -p html -p dot
   html: --format html --out=log/reports.html
-  json: --format json --out=log/repports.json
   bdd: --format pretty
   dot: --format progress
-  headless: BROWSER=headless
-  chrome: BROWSER=chrome
+  
