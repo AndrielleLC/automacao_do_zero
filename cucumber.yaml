@@ -3,3 +3,4 @@
   html: --format html --out=log/reports.html
   bdd: --format pretty
   dot: --format progress
+  

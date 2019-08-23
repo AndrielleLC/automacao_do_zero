@@ -11,4 +11,3 @@
 
 ##Executando com relatório
 * cucumber -t @tentativa_de_login --format html --out=log/reports.html
-
