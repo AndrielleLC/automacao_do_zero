@@ -25,5 +25,6 @@ end
                                                                
 Então("devo ver a seguinte mensagem:") do |msg_sucesso|         
   expect(@swal.mensagem.text).to eql msg_sucesso
+  @swal.ok
 end                                                
                          
