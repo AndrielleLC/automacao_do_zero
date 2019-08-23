@@ -30,5 +30,6 @@ class SweetAlert
 
     def ok
         click_button 'OK'
+        sleep 5
     end
 end
